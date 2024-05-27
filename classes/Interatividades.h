@@ -5,8 +5,9 @@ class Interatividade{
     public:
         Interatividade();
 
+        void verificar_botao_aprtado();
     private:
-        int valor;
+        
 };
 
 #endif
