@@ -24,6 +24,16 @@ public:
         m_botao_marrom_ = botao_marrom_;
     }
 
+    bool esperando_resposta();
+
+    bool verificar_resposta();
+
+    void mostrar_placar();
+
+    void desliga(){
+        placar = 0;
+    };
+
     void comeco()
     {
         som.iniciar();
@@ -36,6 +46,8 @@ private:
     int m_botao_amarelo_;
     int m_botao_laranja_;
     int m_botao_marrom_;
+
+    int placar;
 
     Som som;
     Tela tela;
