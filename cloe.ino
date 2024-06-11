@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include "classes/Cloe_.h"
+//#include <Adafruit_NeoPixel.h>
 
 bool botao = false;
 const int led_principal = 13;
